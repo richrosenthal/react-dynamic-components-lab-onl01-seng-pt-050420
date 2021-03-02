@@ -18,12 +18,12 @@ export default class BlogPost extends Component {
         Still I'll rise.<br/>
         -Maya Angelou<br/>
 
-
+{/*
         <CommentComponent commentText={this.props.commentText} />
         <CommentComponent commentText={this.props.commentText} />
-        <CommentComponent commentText={this.props.commentText} />
-        // <Comment commentText={comments[0]} />
-        // <Comment commentText={comments[0]} />
+        <CommentComponent commentText={this.props.commentText} /> */}
+         <Comment commentText={comments[0]} />
+         <Comment commentText={comments[0]} />
 
       </div>
     );
