@@ -5,8 +5,9 @@ export default class CommentComponent extends Component {
   render() {
     return (
       <div className="bar" id="comment">
-
+         {this.props.commentText}
       </div>
     );
   }
+
 }
